@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="stylesheet" href="RSVP.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body
+        {
+            background-size: cover;
+        }
+        #Title
+        {
+            color: whitesmoke;
+            text-align: center;
+            font-size: xx-large;
+        }
+        #mainpage
+        {
+            color: whitesmoke;
+        }
+        #ourstory
+        {
+            color: whitesmoke;
+        }
+        #abouttheday
+        {
+            color: whitesmoke;
+        }
+        #contactus
+        {
+            color: whitesmoke;
+        }
+        #giftregistry
+        {
+            color:whitesmoke
+        }
+        nav
+        {
+            text-align: center;
+        }
+        a
+        {
+            text-decoration: none;
+            color: black;
+            
+        }
+    </style>
+</head>
+<body style background="pexels-craig-adderley-2306261.jpg">
+    <section id="Container"></section>
+    <p id="Title">rsvp.</p>
+    <hr>
+    <nav>
+        <a id="mainpage" href="Main Page.html" style="text-decoration:none;">MAIN PAGE</a>
+        <a  id="ourstory" href="Our Story.html" style="text-decoration:none;">OUR STORY</a>
+        <a id="abouttheday" href="About The Day.html" style="text-decoration:none;">ABOUT THE DAY</a>
+        <a id="contactus" href="Contact Us.html" style="text-decoration:none;">CONTACT US</a>
+        <a id="giftregistry" href="Gift Registry.html" style="text-decoration:none;">GIFT REGISTRY</a> 
+
+     </nav>
+
+     <article class="rsvpclass">
+        <form>
+            <label id="lblone" for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"> 
+            <br><br>
+            <label id="lbltwo" for="lname">Last Name:</label>
+            <input type="text" id="lname" nma="lname">
+            <br><br>
+            <label id="lblthree" for="dietopt">Dieatry Preference:</lable>
+            <select id="dietopt" name="dietopt">
+                <option value="meat">Meat</option>
+                <option value="veg">Vegetarian</option>
+                <option value="kosher">Kosher</option>
+                <option value="halaal">Halaal</option>
+            </select>
+            <br><br>
+            
+                
+
+                <label id="lblfour" for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+
+                <button reset="submit"><a href="http://127.0.0.1:5500/RSVP.html">Send</a></button>
+        </form>
+    </article>
+</body>
+</html>
